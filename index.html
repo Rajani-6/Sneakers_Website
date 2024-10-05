@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Nike</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="navTop">
+        <div class="navItem">
+          <h2>.Sneaker</h2>
+        </div>
+        <div class="navItem">
+          <div class="navItemSearch">
+            <input type="text" class="searchItem" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="navItem">
+          <div class="offer">
+            <h3>Limited Offer!!!</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="navBottom">
+        <h3 class="menuItem">AIR FORCE</h3>
+        <h3 class="menuItem">JORDAN</h3>
+        <h3 class="menuItem">BLAZER</h3>
+        <h3 class="menuItem">CRAPTER</h3>
+        <h3 class="menuItem">HIPPIE</h3>
+      </div>
+    </nav>
+
+    <div class="slider">
+      <div class="slideWrapper">
+        <div class="slideItem">
+          <img src="./img/air.png" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            Air Force <br />
+            New <br />
+            Season
+          </h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#product"><button class="slideBtn">Buy Now</button></a>
+        </div>
+
+        <div class="slideItem">
+          <img src="./img/jordan.png" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            Air Jordan <br />New <br />
+            Season
+          </h1>
+          <h2 class="sliderPrice">$130</h2>
+          <a href="#product"><button class="slideBtn">Buy Now</button></a>
+        </div>
+
+        <div class="slideItem">
+          <img src="./img/blazer.png" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">Blazer</h1>
+          <h2 class="sliderPrice">$200</h2>
+          <a href="#product"><button class="slideBtn">Buy Now</button></a>
+        </div>
+
+        <div class="slideItem">
+          <img src="./img/crater.png" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">Crapter</h1>
+          <h2 class="sliderPrice">$210</h2>
+          <a href="#product"><button class="slideBtn">Buy Now</button></a>
+        </div>
+
+        <div class="slideItem">
+          <img src="./img/hippie.png" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">Hippie</h1>
+          <h2 class="sliderPrice">$110</h2>
+          <a href="#product"><button class="slideBtn">Buy Now</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <img src="./img/shipping.png" class="featureImg" />
+        <span class="featureTitle">FREE SHIPPING!!</span>
+        <span class="fearuteDesc">Free World wide shipping on all orders</span>
+      </div>
+      <div class="feature">
+        <img src="./img/return.png" class="featureImg" />
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="fearuteDesc"
+          >No question on return and easy refund in 14 days</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/gift.png" class="featureImg" />
+        <span class="featureTitle">GIFT CARDS</span>
+        <span class="fearuteDesc"
+          >Buy gift cards and use coupon cards easily</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/contact.png" class="featureImg" />
+        <span class="featureTitle">CONTACT US</span>
+        <span class="fearuteDesc"
+          >keep in touch with via email and system support</span
+        >
+      </div>
+    </div>
+
+    <div class="product" id="product">
+      <img src="./img/air.png" class="productImg" />
+      <div class="productDetails">
+        <h1 class="productTitle">AIR FORCE</h1>
+        <h3 class="productPrice">$119</h3>
+        <p class="productDesc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          nisi ab consequuntur omnis perspiciatis eum alias temporibus autem
+          earum, amet quos dolorum reiciendis obcaecati error? Ab maxime nemo
+          voluptatibus autem.
+        </p>
+
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+
+        <div class="sizes">
+          <div class="size">42</div>
+          <div class="size">44</div>
+          <div class="size">46</div>
+        </div>
+        <button class="productBtn">BUY NOW!</button>
+      </div>
+
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Full Name</label>
+        <input type="text" class="inputData" placeholder="Rajanikanth K" />
+        <label>Mobile Number</label>
+        <input type="text" class="inputData" placeholder="9550061427" />
+        <label>Address</label>
+        <input type="text" class="inputData" placeholder="Chennai , TN" />
+
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./img/visa.png" alt="" width="50" class="cardIcon" />
+          <img src="./img/master.png" alt="" width="50" class="cardIcon" />
+        </div>
+        <input type="password" class="cardNumber" placeholder="Card Number" />
+        <div class="cardDetails">
+          <input type="text" class="cardData sm" placeholder="MM" />
+          <input type="text" class="cardData sm" placeholder="YYYY" />
+          <input type="text" class="cardData sm" placeholder="CVV" />
+        </div>
+
+        <button class="checkOut">Check Out!</button>
+        <span class="closeBtn">X</span>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="galleryItem">
+        <h1 class="galleryTitle">Be Yourself!</h1>
+        <img
+          src="https://media1.popsugar-assets.com/files/thumbor/vK8LHp76M65pp_t2LlnDufeY14E/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/04/05/765/n/43222156/b49df0315ac65b357ec9a4.22382939_/i/Gigi-Hadid-Reebok-Freestyle-Hi-Sneakers.jpg"
+          class="galleryImg"
+        />
+      </div>
+
+      <div class="galleryItem">
+        <img
+          src="https://urbxn-techwear.com/wp-content/uploads/2021/10/white-techwear-shoes-8.jpg"
+          class="galleryImg"
+        />
+        <h1 class="galleryTitle">This is the First day of Your LIFE!!!</h1>
+      </div>
+
+      <div class="galleryItem">
+        <h1 class="galleryTitle">Just DO it!</h1>
+        <img
+          src="https://mavismick.co.nz/cdn/shop/files/minx-crawler-thistle-print-leather-boot-mavis-mick-04_350x350_f8797a95-036a-4e28-a145-5c79141d1667_600x.jpg?v=1715776884"
+          class="galleryImg"
+        />
+      </div>
+    </div>
+
+    <div class="newSeason">
+      <div class="nsItem">
+        <img
+          src="https://i.pinimg.com/736x/aa/1b/6b/aa1b6b42ac815aa0d32892c553f7e319.jpg"
+          class="nsImg"
+        />
+      </div>
+      <div class="nsItem">
+        <h3 class="nsTitleSm">Winter Season Arrivals</h3>
+        <h1 class="nsTitle">New Season</h1>
+        <h1 class="nsTitle">New Collection</h1>
+        <a href="#nav">
+          <button class="nsBtn">Choose UR Collection</button>
+        </a>
+      </div>
+      <div class="nsItem">
+        <img
+          src="https://i.pinimg.com/originals/d6/11/27/d611276436f81a34ed356e250343d949.jpg"
+          class="nsImg"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerLeft">
+        <div class="flItem">
+          <h3>About Us</h3>
+          <ul class="fList">
+            <li class="fItem">Company</li>
+            <li class="fItem">Contact</li>
+            <li class="fItem">Careers</li>
+            <li class="fItem">Affiliates</li>
+            <li class="fItem">Stores</li>
+          </ul>
+        </div>
+        <div class="flItem">
+          <h3>Useful Links</h3>
+          <ul class="fList">
+            <li class="fItem">Support</li>
+            <li class="fItem">Refund</li>
+            <li class="fItem">FAQ</li>
+            <li class="fItem">Feedback</li>
+            <li class="fItem">Stories</li>
+          </ul>
+        </div>
+        <div class="flItem">
+          <h3>Products</h3>
+          <ul class="fList">
+            <li class="fItem">Air Force</li>
+            <li class="fItem">Air Jordan</li>
+            <li class="fItem">Blazer</li>
+            <li class="fItem">Crater</li>
+            <li class="fItem">Hippie</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footerRight">
+        <div class="frItem">
+          <h3>Subscribe to our NewsLetter</h3>
+          <input type="email" class="fEmail" placeholder="Your Email" />
+          <button class="fBtn">Join Now!</button>
+        </div>
+
+        <div class="frItem">
+          <h3 class="">Follow Us</h3>
+          <div class="fIcons">
+            <img src="./img/facebook.png" class="fIcon" />
+            <img src="./img/twitter.png" class="fIcon" />
+            <img src="./img/instagram.png" class="fIcon" />
+            <img src="./img/whatsapp.png" class="fIcon" />
+          </div>
+        </div>
+
+        <div class="frItem">
+          <h5 class="copyRight">@Rajanikanth . All Rights reserved - 2025</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
